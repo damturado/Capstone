@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>EZ Art Gallery</title>
+  <!--Favicons-->
+  <link rel="shortcut icon" href="assets/img/EZArt_logo.png" type="image/x-icon">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!--CSS File-->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!--Top Bar-->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="https://twitter.com/i/flow/login"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/?hl=en"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/home"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+  <!--Header-->
+  <header id="header" class="d-flex shadow align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">EZ Art<span> Gallery</span></a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#artist">Artists</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  <!--Registration-->
+    <div class="form-v10">
+        <div class="page-content">
+            <div class="form-v10-content">
+                <form class="form-detail" action="#" method="post" id="myform">
+                    <div class="form-left">
+                        <h2>Registration Details</h2>
+                        <div class="form-row">
+                            <select name="title">
+                                <option class="option" value="title">I am a</option>
+                                <option class="option" value="businessman">Buyer</option>
+                                <option class="option" value="reporter">Artist</option>
+                            </select>
+                            <span class="select-btn">
+                                  <i class="zmdi zmdi-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <input type="text" name="last_name" id="last_name" class="input-text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <select name="title">
+                                <option class="option" value="title">Gender</option>
+                                <option class="option" value="businessman">Female</option>
+                                <option class="option" value="reporter">Male</option>
+                            </select>
+                            <span class="select-btn">
+                                  <i class="zmdi zmdi-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="email" id="email" placeholder="Email"/>
+                        </div>
+                        <div class="form-row">
+                            <input type="password" name="pass" id="pass" placeholder="Password"/>
+                        </div>
+                        <div class="form-row">
+                            <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <h2>Contact Details</h2>
+                        <div class="form-row">
+                            <input type="text" name="street" class="street" id="street" placeholder="Street Address" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" name="city" class="city" id="city" placeholder="City" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="zip" class="zip" id="zip" placeholder="Zip Code" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <select name="country">
+                                    <option value="country">Philippines</option>
+                                </select>
+                                <span class="select-btn">
+                                      <i class="zmdi zmdi-chevron-down"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="code" class="code" id="code" placeholder="Code +" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="form-checkbox">
+                            <label class="container"><p>I do accept the <a href="#" class="text">Terms and Conditions</a> of your site.</p>
+                                  <input type="checkbox" name="checkbox">
+                                  <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="form-row-last">
+                            <input type="submit" name="register" class="register" value="Register Badge">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  <!--Footer-->
+  <footer id="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4><span>Join Our Newsletter</span></h4>
+            <p>Sign up for more latest updates and offers.</p>
+            <form action="https://formsubmit.co/el/tifopo" method="POST">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><span>EZ Art Gallery</span></h3>
+            <p>
+              Labogon <br>
+              Mandaue City, Cebu 6014<br>
+              Philippines <br><br>
+              <strong>Phone:</strong>+63-9786-999-1234<br>
+              <strong>Email:</strong>galleryezart@gmail.com<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4><span>Our Social Networks</span></h4>
+            <p>Connect with us.</p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/i/flow/login"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/?hl=en"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/home"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>EZ Art Gallery</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Group 1</a>
+      </div>
+    </div>
+  </footer>
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!--JS-->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/js/main.js"></script>
