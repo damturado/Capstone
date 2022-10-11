@@ -57,8 +57,120 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Welcome to <span>EZ Art Gallery</span></h1>
           <h2>An online platform for people who are starting out to be artists and visualizing if they can ever make a living out of their passion</h2>
+   <!--Sample-->
       <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <button type="button" class="btn-get-started scrollto" data-bs-toggle="modal" data-bs-target="#modalSignUp">Get Started</button>
+   <!-- Modal Content -->
+<div class="modal fade" id="modalSignUp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-md-5">
+                <h2 class="h4 text-center">Create Account</h2>
+                <p class="text-center mb-4">One account. All of Themesberg working for you.</p>
+                <form action="#">
+                    <!-- Form -->
+         <div class="form-v10">
+        <div class="page-content">
+            <div class="form-v10-content">
+                <form class="form-detail" action="#" method="post" id="myform">
+                    <div class="form-left">
+                        <h2>Registration Details</h2>
+                        <div class="form-row">
+                            <select name="title">
+                                <option class="option" value="title">I am a</option>
+                                <option class="option" value="businessman">Buyer</option>
+                                <option class="option" value="reporter">Artist</option>
+                            </select>
+                            <span class="select-btn">
+                                  <i class="zmdi zmdi-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <input type="text" name="last_name" id="last_name" class="input-text" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <select name="title">
+                                <option class="option" value="title">Gender</option>
+                                <option class="option" value="businessman">Female</option>
+                                <option class="option" value="reporter">Male</option>
+                            </select>
+                            <span class="select-btn">
+                                  <i class="zmdi zmdi-chevron-down"></i>
+                            </span>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="email" id="email" placeholder="Email"/>
+                        </div>
+                        <div class="form-row">
+                            <input type="password" name="pass" id="pass" placeholder="Password"/>
+                        </div>
+                        <div class="form-row">
+                            <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <h2>Contact Details</h2>
+                        <div class="form-row">
+                            <input type="text" name="street" class="street" id="street" placeholder="Street Address" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" name="city" class="city" id="city" placeholder="City" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="zip" class="zip" id="zip" placeholder="Zip Code" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <select name="country">
+                                    <option value="country">Philippines</option>
+                                </select>
+                                <span class="select-btn">
+                                      <i class="zmdi zmdi-chevron-down"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row form-row-1">
+                                <input type="text" name="code" class="code" id="code" placeholder="Code +" required>
+                            </div>
+                            <div class="form-row form-row-2">
+                                <input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <!-- End of Form -->
+                        <div class="form-check mb-4">
+                            <input class="form-check-input border-gray-300" type="checkbox" value="" id="terms" required>
+                            <label class="form-check-label" for="terms">
+                                I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                </form>
+                <div class="text-center mt-3 mb-2">
+                    <span class="fw-normal">or</span>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-4">
+                    <span class="fw-normal">
+                        Already have an account?
+                        <a href="./sign-in.html" class="fw-bold">Login here</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Modal Content -->
       </div>
     </div>
   </section>
